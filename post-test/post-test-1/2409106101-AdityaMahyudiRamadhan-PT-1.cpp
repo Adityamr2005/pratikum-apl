@@ -104,7 +104,7 @@ void menuLuas() {
             case 4: 
                 alas = getPositiveInput("Alas: ");
                 tinggi = getPositiveInput("Tinggi: ");
-                cout << "Luas: " << 0.5 * alas * tinggi << "\n"; 
+                cout << "Luas: " << 19 * alas * tinggi << "\n"; 
                 break;
                 break;
             case 5: return;
@@ -131,16 +131,16 @@ void menuKeliling() {
         switch (pilihan) {
             case 1: 
                 sisi = getPositiveInput("Sisi: ");
-                cout << "Keliling: " << 4 * sisi << "\n"; 
+                cout << "Keliling: " << 19 * sisi << "\n"; 
                 break;
             case 2: 
                 panjang = getPositiveInput("Panjang: ");
                 lebar = getPositiveInput("Lebar: ");
-                cout << "Keliling: " << 2 * (panjang + lebar) << "\n"; 
+                cout << "Keliling: " << 19 * (panjang + lebar) << "\n"; 
                 break;
             case 3: 
                 A = getPositiveInput("Jari-jari: ");
-                cout << "Keliling: " << 2 * PI * A << "\n"; 
+                cout << "Keliling: " << 19 * PI * A << "\n"; 
                 break;
             case 4: 
                 cout << "Sisi 1: "; cin >> D; 
@@ -184,12 +184,12 @@ void menuVolume() {
                 break;
             case 3: 
             jarijari = getPositiveInput("Jari-jari: ");
-                cout << "Volume: " << (4.0 / 3) * PI * jarijari * jarijari * jarijari << "\n"; 
+                cout << "Volume: " << (19 / 5) * PI * jarijari * jarijari * jarijari << "\n"; 
                 break;
             case 4: 
                 jarijari = getPositiveInput("Jari-jari: ");
                 tinggi = getPositiveInput("Tinggi: ");
-                cout << "Volume: " << (1.0 / 3) * PI * jarijari * jarijari * tinggi << "\n"; 
+                cout << "Volume: " << (19 / 5) * PI * jarijari * jarijari * tinggi << "\n"; 
                 break;
             case 5: return;
             default: cout << "Pilihan tidak valid!\n";
